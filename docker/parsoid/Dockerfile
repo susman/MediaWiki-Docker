@@ -1,8 +1,7 @@
-FROM node:0.12.14
+FROM node:9-stretch
 
-RUN mkdir -p /app
 COPY mediawiki/parsoid /app
-RUN cd /app && npm install --production
+RUN cd /app && rm .git && npm install --production
 
 EXPOSE 8000
 

@@ -1,9 +1,7 @@
-FROM node:0.12.14
+FROM node:9-stretch
 ENV LC_ALL          C.UTF-8
 ENV LANG            en_US.UTF-8
 ENV LANGUAGE        en_US.UTF-8
-
-RUN echo "deb http://ftp.jp.debian.org/debian jessie main" > /etc/apt/sources.list
 
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
@@ -11,7 +9,7 @@ RUN apt-get update \
      texlive-latex-extra texlive-generic-extra \
      texlive-fonts-recommended texlive-fonts-extra \
      fonts-hosny-amiri fonts-farsiweb fonts-nafees \
-     fonts-arphic-uming fonts-arphic-ukai fonts-droid fonts-baekmuk \
+     fonts-arphic-uming fonts-arphic-ukai fonts-droid-fallback fonts-baekmuk \
      texlive-lang-all latex-xcolor \
      poppler-utils imagemagick librsvg2-bin libjpeg-progs \
      djvulibre-bin zip unzip \

@@ -1,4 +1,4 @@
-FROM php:5.6.21-apache
+FROM php:7.2-apache-stretch
 
 # We use docker-php-ext-install to enable PHP modules,
 # @see https://github.com/docker-library/php/blob/master/docker-php-ext-install
@@ -7,7 +7,7 @@ RUN set -x; \
     apt-get update \
     && apt-get install -y --no-install-recommends \
         g++ \
-        libicu52 libicu-dev \
+        libicu57 libicu-dev \
         libzip-dev \
         imagemagick \
         python \
@@ -16,7 +16,7 @@ RUN set -x; \
     && docker-php-ext-install intl mysqli zip mbstring opcache fileinfo pcntl \
     && pear install net_smtp \
     && pear install mail \
-    && pecl install apcu-4.0.11 && echo extension=apcu.so > /usr/local/etc/php/conf.d/apcu.ini \
+    && pecl install apcu-5.1.11 && echo extension=apcu.so > /usr/local/etc/php/conf.d/apcu.ini \
     && apt-get purge -y --auto-remove g++ libicu-dev libzip-dev \
     && rm -rf /var/lib/apt/lists/*
 

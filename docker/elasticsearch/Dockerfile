@@ -1,3 +1,3 @@
-FROM elasticsearch:1.7.5
+FROM elasticsearch:5-alpine
 
 COPY docker/elasticsearch/elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
