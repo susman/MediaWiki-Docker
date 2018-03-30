@@ -3,8 +3,8 @@
 $wgDBtype = "mysql";
 $wgDBserver = "mysql";
 $wgDBname = getenv("WG_DBNAME");
-$wgDBuser = "root";
-$wgDBpassword = "password";
+$wgDBuser = getenv("WG_DBUSER");
+$wgDBpassword = getenv("WG_DBPASSWORD");
 
 # MySQL specific settings
 $wgDBprefix = "";
