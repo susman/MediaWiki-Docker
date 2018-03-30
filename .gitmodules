@@ -107,3 +107,6 @@
 [submodule "mediawiki/parsoid"]
 	path = mediawiki/parsoid
 	url = https://gerrit.wikimedia.org/r/mediawiki/services/parsoid
+[submodule "mediawiki/extensions/Math"]
+	path = mediawiki/extensions/Math
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math
