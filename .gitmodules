@@ -4,9 +4,6 @@
 [submodule "mediawiki/skins/Vector"]
 	path = mediawiki/skins/Vector
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/skins/Vector.git
-[submodule "mediawiki/parsoid"]
-	path = mediawiki/parsoid
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid
 [submodule "mediawiki/extensions/VisualEditor"]
 	path = mediawiki/extensions/VisualEditor
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git
@@ -58,12 +55,9 @@
 [submodule "mediawiki/extensions/Cargo"]
 	path = mediawiki/extensions/Cargo
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cargo.git
-[submodule "mediawiki/extensions/SemanticForms"]
-	path = mediawiki/extensions/SemanticForms
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SemanticForms.git
 [submodule "mediawiki/extensions/RandomSelection"]
 	path = mediawiki/extensions/RandomSelection
-	url = https://github.com/Inclumedia/RandomSelection.git
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RandomSelection 
 [submodule "mediawiki/extensions/ExternalData"]
 	path = mediawiki/extensions/ExternalData
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ExternalData.git
@@ -102,7 +96,14 @@
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Scribunto.git
 [submodule "mediawiki/extensions/DynamicPageList"]
 	path = mediawiki/extensions/DynamicPageList
-	url = https://github.com/cllu/mediawiki-extensions-DynamicPageList.git
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/DynamicPageList 
 [submodule "mediawiki/extensions/MyVariables"]
 	path = mediawiki/extensions/MyVariables
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MyVariables.git
+[submodule "mediawiki/extensions/PageForms"]
+	path = mediawiki/extensions/PageForms
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
+
+[submodule "mediawiki/parsoid"]
+	path = mediawiki/parsoid
+	url = https://gerrit.wikimedia.org/r/mediawiki/services/parsoid
