@@ -43,9 +43,6 @@
 [submodule "mediawiki/extensions/Editcount"]
 	path = mediawiki/extensions/Editcount
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Editcount.git
-[submodule "mediawiki/extensions/Widgets"]
-	path = mediawiki/extensions/Widgets
-	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Widgets.git
 [submodule "mediawiki/extensions/CirrusSearch"]
 	path = mediawiki/extensions/CirrusSearch
 	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CirrusSearch.git
@@ -103,10 +100,12 @@
 [submodule "mediawiki/extensions/PageForms"]
 	path = mediawiki/extensions/PageForms
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PageForms
-
 [submodule "mediawiki/parsoid"]
 	path = mediawiki/parsoid
 	url = https://gerrit.wikimedia.org/r/mediawiki/services/parsoid
 [submodule "mediawiki/extensions/Math"]
 	path = mediawiki/extensions/Math
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math
+[submodule "mediawiki/extensions/Widgets"]
+	path = mediawiki/extensions/Widgets
+	url = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Widgets
